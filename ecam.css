@@ -141,40 +141,43 @@ button {
     padding-right: 5px;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: var(--lightgray);
-  min-width: 160px;
+  min-width: 189px;
   z-index: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-width: 0px;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: var(--button-text);
   text-decoration: none;
   display: block;
 }
 
-/* Show the dropdown menu on hover */
+.dropdown:hover {
+    border-bottom-width: 0px;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 /* Add this to HTML
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown</button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+    <div class="dropdown">
+        <button class="button dropdownbutton">DROPDOWN <i class="fa fa-sort-desc"></i></button>
+        <div class="button dropdown-content">
+          <a href="#">Option 1</a>
+          <a href="#">Option 2</a>
+          <a href="#">Option 3</a>
+        </div>
     </div>
-  </div>
 */
