@@ -1,0 +1,180 @@
+:root {
+  --green: #00c200;
+  --amber: #ff7e00;
+  --red: #d62631;
+  --azure: #5388b4;
+  --gray: #535353;
+  --lightgray: #747474;
+  --button-text: #d3d3d3;
+  --background: #2f2f3a;
+  --secondary-background: #3c5064;
+  background: var(--background);
+  color: white;
+  text-decoration: none;
+}
+
+button { 
+    font-family: 'Source Code Pro', monospace;
+}
+
+.text {
+  font-size: 30px;
+}
+
+.ecamheader {
+  font-size: 30px;
+}
+
+.warningdiv {
+  border-width: 1px;
+  border-style: solid;
+  display: inline-block;
+  border-color: var(--amber);
+}
+
+.ecamdivider {
+  border-top: 1px solid lightgray;
+}
+
+/*  ECAM Actions  */
+.actionsdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.alert {
+  border-width: 1px;
+  border-style: solid;
+  display: inline-block;
+}
+
+.green {
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.amber {
+  color: var(--amber);
+  border-color: var(--amber);
+}
+
+.red {
+  color: var(--red);
+  border-color: var(--red);
+}
+
+.action {
+  color: var(--azure);
+  margin-left: 20px;
+}
+
+.actiontext {
+  color: white;
+  margin-left: 30px;
+}
+
+/*   A350 Style Question   */
+.questionmark {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  background-color: var(--secondary-background);
+  width: 60px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  font-weight: 300;
+  margin-top: 0px;
+  position: relative;
+  left: -30px;
+}
+
+.questiondiv {
+  border-left-width: 1px;
+  border-left-style: solid;
+  display: flex;
+  flex-direction: column;
+  border-color: white;
+  margin-top: 30px;
+}
+
+.questiontext {
+  margin-top: -72px;
+  margin-left: 40px;
+  font-size: 29px;
+}
+
+.a350form {
+  margin-left: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.a350formlabel {
+  font-size: 29px;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+/*  MCDU UI Elements  */
+.button {
+  background-color: var(--gray);
+  color: var(--button-text);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  min-width: 200px;
+  border-width: 0.5px;
+  border-color: var(--button-text);
+  border-style: solid;
+  font-size: 25px;
+  outline: none;
+}
+
+.dropdownbutton {
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--lightgray);
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Add this to HTML
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+*/

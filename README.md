@@ -1,2 +1,3 @@
-# AirbusAvionics.css
-Airbus ECAM/PFD/MFD Style CSS Framework
+# ECAM.css
+Airbus ECAM Style CSS Framework
+Do NOT use for educational purposes
