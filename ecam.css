@@ -1,12 +1,13 @@
 :root {
   --green: #00c200;
-  --amber: #ff7e00;
+  --amber: #ff9900;
   --red: #d62631;
-  --azure: #5388b4;
+  --azure: #4d92ca;
   --gray: #535353;
   --lightgray: #747474;
   --button-text: #d3d3d3;
   --background: #2f2f3a;
+  --lighter-background: #27272b;
   --secondary-background: #3c5064;
   background: var(--background);
   color: white;
@@ -23,6 +24,10 @@ input {
 }
 
 a {
+  cursor: url("cursor.png") 25 35, auto;
+}
+
+label {
   cursor: url("cursor.png") 25 35, auto;
 }
 
@@ -212,6 +217,7 @@ a {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  cursor: url("cursor.png") 25 35, auto;
 }
 
 .container input {
@@ -257,4 +263,58 @@ a {
 
 .defaultcursor {
   cursor: unset;
+}
+
+/*  Text Input  */
+.textinput {
+  background-color: #00000000;
+  border-color: var(--lightgray);
+  border-style: solid;
+  text-align: center;
+  outline: none;
+  color: var(--azure);
+  font-family: 'Source Code Pro', monospace;
+}
+
+/*  Popup  */
+.popup {
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--lighter-background);
+  width: 300px;
+  height: 150px;
+  border-width: 0.5px;
+  border-color: var(--button-text);
+  border-style: solid;
+  position: relative;
+}
+
+.popuptext {
+  font-size: 20px;
+}
+
+.popupbutton {
+  min-width: 100px;
+  margin: 0px 0px 0px 0px;
+  bottom: 0px;
+  position: absolute;
+}
+
+.popupbuttondiv {
+
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+/*  Hover for hoverable buttons  */
+.hoverable:hover {
+  border-color: var(--azure);
+  box-shadow:  2px 2px 0px 0px var(--azure), -2px -2px 0px 0px var(--azure), 2px -2px 0px 0px var(--azure), -2px 2px 0px 0px var(--azure);
 }

@@ -29,6 +29,7 @@
     <h2 class="text alert bigalert red">IMPORTANT INFO</h2>
     <p class="text">ECAM.css has no width, height or layout properties. You need to manually adjust them.</p>
     <p class="text">There is no font packaged with this project but usage of Source Code Pro is recommended.</p>
+    <p class="text">Please note that the default theme is dark and no light theme is planned since the original ECAM doesn't have it.</p>
 
     <div class="ecamscreen">
         <h2 class="text ecamheader">EXAMPLES</h2>
@@ -90,7 +91,10 @@
 
         <h2 class="text ecamheader">Button and Dropdown</h2>
 
-        <a class="button" href="#">BUTTON</a>
+        <div class="radios">
+            <a class="button showcase" href="#">BUTTON</a>
+            <a class="button hoverable showcase" href="#">HOVERABLE</a>
+        </div>
 
         <div class="dropdown">
             <button class="button dropdownbutton">DROPDOWN <i class="fa fa-sort-desc"></i></button>
@@ -130,6 +134,30 @@
             </div>
 
     </div>
+
+    <hr class="ecamdivider">
+
+    <h2 class="text ecamheader">Text Input</h2>
+
+    <div class="radios">
+        <input class="textinput" type="text" name="Input" id="Input" placeholder="INPUT">
+        <input class="textinput hoverable showcase" type="text" name="Input" id="Input" placeholder="HOVERABLE INPUT">
+    </div>
+
+    
+
+    <hr class="ecamdivider">
+
+    <h2 class="text ecamheader">Popup</h2>
+
+    <div class="popup">
+        <h3 class="text popuptext">THIS IS A POPUP</h3>
+        <div class="popupbuttondiv">
+            <a class="button popupbutton left hoverable" href="#">YES</a>
+            <a class="button popupbutton right hoverable" href="#">NO</a>
+        </div>
+    </div>
+
 </div>
 
 </body>
