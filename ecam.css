@@ -254,3 +254,7 @@ a {
 .container .checkmarkgreen:after {
  background: var(--green);
 }
+
+.defaultcursor {
+  cursor: unset;
+}
