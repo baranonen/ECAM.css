@@ -15,6 +15,15 @@
 
 button { 
     font-family: 'Source Code Pro', monospace;
+    cursor: url("cursor.png") 25 35, auto;
+}
+
+input {
+  cursor: url("cursor.png") 25 35, auto;
+}
+
+a {
+  cursor: url("cursor.png") 25 35, auto;
 }
 
 .text {
