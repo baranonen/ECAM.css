@@ -3,6 +3,7 @@
   --amber: #ff9900;
   --red: #d62631;
   --azure: #4d92ca;
+  --lighterazure: #60a3da;
   --gray: #535353;
   --lightgray: #747474;
   --button-text: #d3d3d3;
@@ -113,6 +114,7 @@ label {
   flex-direction: column;
   border-color: white;
   margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 .questiontext {
@@ -184,17 +186,6 @@ label {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-/* Add this to HTML
-    <div class="dropdown">
-        <button class="button dropdownbutton">DROPDOWN <i class="fa fa-sort-desc"></i></button>
-        <div class="button dropdown-content">
-          <a href="#">Option 1</a>
-          <a href="#">Option 2</a>
-          <a href="#">Option 3</a>
-        </div>
-    </div>
-*/
 
 /*  Radio Button  */
 
@@ -315,6 +306,6 @@ label {
 
 /*  Hover for hoverable buttons  */
 .hoverable:hover {
-  border-color: var(--azure);
-  box-shadow:  2px 2px 0px 0px var(--azure), -2px -2px 0px 0px var(--azure), 2px -2px 0px 0px var(--azure), -2px 2px 0px 0px var(--azure);
+  border-color: var(--lighterazure);
+  box-shadow:  2px 2px 0px 0px var(--lighterazure), -2px -2px 0px 0px var(--lighterazure), 2px -2px 0px 0px var(--lighterazure), -2px 2px 0px 0px var(--lighterazure);
 }
