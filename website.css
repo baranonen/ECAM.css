@@ -12,6 +12,18 @@ header {
     justify-content: space-between;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
 .headerrightdiv {
     position: relative;
     top: 40px;
@@ -69,4 +81,15 @@ header {
 
 .dropdownbutton {
     margin-top: 30px;
+}
+
+.radios {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
 }
