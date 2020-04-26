@@ -91,9 +91,10 @@ footer p {
     margin-top: 30px;
 }
 
-.radios {
+.showcasediv {
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
 }
 
 .icon {
