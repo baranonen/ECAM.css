@@ -1,0 +1,20 @@
+{
+  "name": "ecam.css",
+  "version": "1.0.0",
+  "description": "ECAM-style CSS framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "style": "./ecam.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baranonen/ECAM.css.git"
+  },
+  "author": "Baran Önen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baranonen/ECAM.css/issues"
+  },
+  "homepage": "https://github.com/baranonen/ECAM.css#readme"
+}
