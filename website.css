@@ -85,7 +85,13 @@ footer p {
 
 .ecamdivider {
     width: 800px;
-    margin-top: 70px;
+    margin-top: 0px;
+}
+
+.dividerdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dropdownbutton {
@@ -116,4 +122,20 @@ footer p {
 
 .textinput {
     font-size: 20px;
+}
+
+.extend {
+    height: 50px;;
+    min-width: 70px;
+    width: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+.ecamcontainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }

@@ -15,67 +15,220 @@
 <header>
     <h1 class="websiteheader">ECAM.css</h1>
     <div class="headerrightdiv">
-        <p class="text secondaryheader green">v1.0.0</p>
+        <p class="text secondaryheader green">v1.0.1</p>
     </div>
 </header>
 
 <body>
     <h2 class="text alert bigalert green">INTRODUCTION</h2>
-    <p class="text">ECAM.css is a CSS framework that replicates the look of ECAM display elements found in modern Airbus planes.</p>
+    <p class="text">ECAM.css is a CSS framework that replicates the look of ECAM display elements found in modern Airbus
+        planes.</p>
     <h2 class="text alert bigalert amber">USAGE</h2>
-    <p class="text">ECAM.css is available via NPM.</p>
-    <p class="text action">-For more info.........Refer to <a class="text action defaultcursor" href="#">README.md</a></p>
+    <p class="text">ECAM.css is available via NPM. To install it, run "npm i ecam.css"</p>
+    <p class="text action">-For more info.........Refer to <a class="text action defaultcursor"
+            href="https://github.com/baranonen/ECAM.css#readme">README.md</a>
+    </p>
     <h2 class="text alert bigalert red">IMPORTANT INFO</h2>
     <p class="text">ECAM.css has no width, height or layout properties. You need to manually adjust them.</p>
     <p class="text">There is no font packaged with this project but usage of Source Code Pro is recommended.</p>
-    <p class="text">Please note that the default theme is dark and no light theme is planned since the original ECAM doesn't have it.</p>
+    <p class="text">Please note that the default theme is dark and no light theme is planned since the original ECAM
+        doesn't have it.</p>
 
     <div class="ecamscreen">
         <h2 class="text ecamheader">EXAMPLES</h2>
-        <div class="questiondiv">
-            <div>
-                <p class="questionmark">?</p>
-                <p class="questiontext">A350/A380 Style Question ?</p>
+
+        <div class="ecamcontainer">
+
+            <div class="questiondiv">
+                <div>
+                    <p class="questionmark">?</p>
+                    <p class="questiontext">A350/A380 Style Question Form ?</p>
+                </div>
+                <form class="a350form" action="#">
+                    <input type="radio" name="form">
+                    <label class="a350formlabel" for="yes">Yes</label>
+                    <input type="radio" name="form">
+                    <label class="a350formlabel" for="no">No</label>
+                </form>
             </div>
-            <form class="a350form" action="#">
-                <input type="radio" name="form">
-                <label class="a350formlabel" for="yes">Yes</label>
-                <input type="radio" name="form">
-                <label class="a350formlabel" for="no">No</label>
-            </form>
+
+
+
         </div>
 
-        <hr class="ecamdivider">
+        <div class="dividerdiv">
+            <div class="showcasediv extenddiv"><a class="button hoverable extend" href="https://github.com/baranonen/ECAM.css#question-form"><></a>
+            </div>
+            <hr class="ecamdivider">
+        </div>
+
+
 
         <h2 class="text ecamheader">TEXT STYLES</h2>
 
         <div class="textstyles">
 
-        <div class="doubleicons">
-        <p class="text alert red showcase">ERROR</p>
-        <p class="text red showcase">ERROR</p>
-        </div>   
+            <div class="doubleicons">
+                <p class="text alert red showcase">ERROR</p>
+                <p class="text red showcase">ERROR</p>
+            </div>
 
-        <div class="doubleicons">
-        <p class="text alert amber showcase">WARNING</p>
-        <p class="text amber showcase">WARNING</p>
+            <div class="doubleicons">
+                <p class="text alert amber showcase">WARNING</p>
+                <p class="text amber showcase">WARNING</p>
+            </div>
+
+            <div class="doubleicons">
+                <p class="text alert green showcase">INFO</p>
+                <p class="text green showcase">INFO</p>
+            </div>
+
+            <p class="text action showcase">ACTION</p>
+
+            <p class="text showcase">TEXT</p>
+
+
         </div>
 
-        <div class="doubleicons">
-        <p class="text alert green showcase">INFO</p>
-        <p class="text green showcase">INFO</p>
+        <div class="dividerdiv">
+            <div class="showcasediv extenddiv"><a class="button hoverable extend" href="https://github.com/baranonen/ECAM.css#text-styles"><></a>
+            </div>
+            <hr class="ecamdivider">
         </div>
 
-        <p class="text action showcase">ACTION</p>
 
-        <p class="text showcase">TEXT</p>
+        <h2 class="text ecamheader">BUTTONS</h2>
+
+        <div class="showcasediv">
+            <a class="button showcase" href="#">BUTTON</a>
+            <a class="button hoverable showcase" href="#">HOVERABLE</a>
+        </div>
 
 
+        <div class="dividerdiv">
+            <div class="showcasediv extenddiv"><a class="button hoverable extend" href="https://github.com/baranonen/ECAM.css#buttons"><></a>
+            </div>
+            <hr class="ecamdivider">
+        </div>
+
+        <h2 class="text ecamheader">DROPDOWNS</h2>
+
+        <div class="showcasediv">
+<div class="dropdown showcase">
+    <button class="button dropdownbutton"><a class="text dropdowntext">DROPDOWN</a><i class="fa fa-sort-desc"></i></button>
+    <div class="button dropdown-content">
+        <a href="#">Option 1</a>
+        <a href="#">Option 2</a>
+        <a href="#">Option 3</a>
     </div>
+</div>
 
-        <hr class="ecamdivider">
+<div class="dropdown showcase">
+    <button class="button dropdownbutton"><a class="text dropdowntext darkdropdown">DROPDOWN 2</a><i class="dropdownicon fa fa-sort-desc"></i></button>
+    <div class="button dropdown-content">
+        <a href="#">Option 1</a>
+        <a href="#">Option 2</a>
+        <a href="#">Option 3</a>
+    </div>
+</div>
 
-        <h2 class="text ecamheader">EMERGENCY CHECKLIST</h2>
+        </div>
+        <div class="showcasediv">
+
+<div class="dropdown showcase">
+    <button class="button dropdownbutton hoverable"><a class="text dropdowntext">HOVERABLE</a><i class="fa fa-sort-desc"></i></button>
+    <div class="button dropdown-content">
+        <a href="#">Option 1</a>
+        <a href="#">Option 2</a>
+        <a href="#">Option 3</a>
+    </div>
+</div>
+
+
+<div class="dropdown showcase">
+    <button class="button dropdownbutton hoverable"><a class="text dropdowntext darkdropdown">HOVERABLE</a><i class="dropdownicon fa fa-sort-desc"></i></button>
+    <div class="button dropdown-content">
+        <a href="#">Option 1</a>
+        <a href="#">Option 2</a>
+        <a href="#">Option 3</a>
+    </div>
+</div>
+
+        </div>
+
+        <div class="dividerdiv">
+            <div class="showcasediv extenddiv"><a class="button hoverable extend" href="https://github.com/baranonen/ECAM.css#dropdowns"><></a>
+            </div>
+            <hr class="ecamdivider">
+        </div>
+
+        <h2 class="text ecamheader">RADIO BUTTONS</h2>
+
+        <div class="showcasediv">
+
+            <div class="radiodiv">
+                <label class="container">ONE
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">TWO
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div class="radiodiv">
+                <label class="container green">ONE
+                    <input type="radio" checked="checked" name="radiogreen">
+                    <span class="checkmark checkmarkgreen"></span>
+                </label>
+                <label class="container green">TWO
+                    <input type="radio" name="radiogreen">
+                    <span class="checkmark checkmarkgreen"></span>
+                </label>
+            </div>
+
+        </div>
+
+        <div class="dividerdiv">
+            <div class="showcasediv extenddiv"><a class="button hoverable extend" href="https://github.com/baranonen/ECAM.css#radio-buttons"><></a>
+            </div>
+            <hr class="ecamdivider">
+        </div>
+
+        <h2 class="text ecamheader">TEXT INPUTS</h2>
+
+        <div class="showcasediv">
+            <input class="textinput showcase" type="text" name="Input" id="Input" placeholder="INPUT">
+            <input class="textinput hoverable showcase" type="text" name="Input" id="Input" placeholder="HOVERABLE INPUT">
+        </div>
+
+
+
+        <div class="dividerdiv">
+            <div class="showcasediv extenddiv"><a class="button hoverable extend" href="https://github.com/baranonen/ECAM.css#text-inputs"><></a>
+            </div>
+            <hr class="ecamdivider">
+        </div>
+
+        <h2 class="text ecamheader">POPUP</h2>
+
+        <div class="popup">
+            <h3 class="text popuptext">THIS IS A POPUP</h3>
+            <div class="popupbuttondiv">
+                <a class="button popupbutton left hoverable" href="#">YES</a>
+                <a class="button popupbutton right hoverable" href="#">NO</a>
+            </div>
+        </div>
+        <div class="dividerdiv">
+            <div class="showcasediv extenddiv"><a class="button hoverable extend" href="https://github.com/baranonen/ECAM.css#popup"><></a></div>
+        </div>
+
+        <div class="dividerdiv">
+            <hr class="ecamdivider">
+        </div>
+
+        <h2 class="text ecamheader">EXAMPLE EMERGENCY CHECKLIST</h2>
         <div class="actionsdiv">
             <p class="text alert red small">ENG 2 FIRE</p>
             <p class="text action small">-THR LEVERS.......IDLE</p>
@@ -86,127 +239,17 @@
             <p class="text action small">-AGENT 1.........DISCH</p>
         </div>
 
-        <hr class="ecamdivider">
-
-        <h2 class="text ecamheader">BUTTONS</h2>
-
-        <div class="showcasediv">
-            <a class="button showcase" href="#">BUTTON</a>
-            <a class="button hoverable showcase" href="#">HOVERABLE</a>
-        </div>
-
-
-        <hr class="ecamdivider">
-
-        <h2 class="text ecamheader">DROPDOWNS</h2>
-
-        <div class="showcasediv">
-                <div class="dropdown showcase">
-                        <button class="button dropdownbutton"><a class="text dropdowntext">DROPDOWN</a><i class="fa fa-sort-desc"></i></button>
-                        <div class="button dropdown-content">
-                          <a href="#">Option 1</a>
-                          <a href="#">Option 2</a>
-                          <a href="#">Option 3</a>
-                        </div>
-                    </div>
-            
-            
-                    <div class="dropdown showcase">
-                        <button class="button dropdownbutton"><a class="text dropdowntext darkdropdown">DROPDOWN 2</a><i class="dropdownicon fa fa-sort-desc"></i></button>
-                        <div class="button dropdown-content">
-                          <a href="#">Option 1</a>
-                          <a href="#">Option 2</a>
-                          <a href="#">Option 3</a>
-                        </div>
-                    </div>
-
-        </div>
-        <div class="showcasediv">
-
-        
-                <div class="dropdown showcase">
-                    <button class="button dropdownbutton hoverable"><a class="text dropdowntext">HOVERABLE</a><i class="fa fa-sort-desc"></i></button>
-                    <div class="button dropdown-content">
-                      <a href="#">Option 1</a>
-                      <a href="#">Option 2</a>
-                      <a href="#">Option 3</a>
-                    </div>
-                </div>
-        
-        
-                <div class="dropdown showcase">
-                    <button class="button dropdownbutton hoverable"><a class="text dropdowntext darkdropdown">HOVERABLE</a><i class="dropdownicon fa fa-sort-desc"></i></button>
-                    <div class="button dropdown-content">
-                      <a href="#">Option 1</a>
-                      <a href="#">Option 2</a>
-                      <a href="#">Option 3</a>
-                    </div>
-                </div>
-
-        </div>        
-
-        <hr class="ecamdivider">
-
-        <h2 class="text ecamheader">RADIO BUTTONS</h2>
-
-        <div class="showcasediv">
-
-        <div class="radiodiv">
-        <label class="container">ONE
-            <input type="radio" checked="checked" name="radio">
-            <span class="checkmark"></span>
-          </label>
-          <label class="container">TWO
-            <input type="radio" name="radio">
-            <span class="checkmark"></span>
-          </label>
-        </div>
-
-        <div class="radiodiv">
-            <label class="container green">ONE
-                <input type="radio" checked="checked" name="radiogreen">
-                <span class="checkmark checkmarkgreen"></span>
-              </label>
-              <label class="container green">TWO
-                <input type="radio" name="radiogreen">
-                <span class="checkmark checkmarkgreen"></span>
-              </label>
-            </div>
-
     </div>
-
-    <hr class="ecamdivider">
-
-    <h2 class="text ecamheader">TEXT INPUT</h2>
-
-    <div class="showcasediv">
-        <input class="textinput showcase" type="text" name="Input" id="Input" placeholder="INPUT">
-        <input class="textinput hoverable showcase" type="text" name="Input" id="Input" placeholder="HOVERABLE INPUT">
-    </div>
-
-    
-
-    <hr class="ecamdivider">
-
-    <h2 class="text ecamheader">POPUP</h2>
-
-    <div class="popup">
-        <h3 class="text popuptext">THIS IS A POPUP</h3>
-        <div class="popupbuttondiv">
-            <a class="button popupbutton left hoverable" href="#">YES</a>
-            <a class="button popupbutton right hoverable" href="#">NO</a>
-        </div>
-    </div>
-
-</div>
 
 </body>
 
 <footer>
     <p>© 2020 Baran Önen</p>
     <div>
-        <a class="defaultcursor" href="https://github.com/baranonen/ECAM.css"><i class="icon fa fa-github fa-3x" aria-hidden="true"></i></a>
-        <a class="defaultcursor" href="https://github.com/baranonen/ECAM.css/fork"><i class="icon fa fa-code-fork fa-3x" aria-hidden="true"></i></a>
+        <a class="defaultcursor" href="https://github.com/baranonen/ECAM.css"><i class="icon fa fa-github fa-3x"
+                aria-hidden="true"></i></a>
+        <a class="defaultcursor" href="https://github.com/baranonen/ECAM.css/fork"><i class="icon fa fa-code-fork fa-3x"
+                aria-hidden="true"></i></a>
     </div>
 </footer>
 
