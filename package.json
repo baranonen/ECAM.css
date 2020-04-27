@@ -1,6 +1,6 @@
 {
   "name": "ecam.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ECAM-style CSS framework.",
   "main": "index.js",
   "scripts": {
