@@ -140,11 +140,11 @@ Most of the components found below do not have layout or width/height styles. Yo
 ### Text Inputs
 ##### Non-hoverable
 ```html
-<input class="textinput showcase" type="text" name="Input" id="Input" placeholder="INPUT">
+<input class="textinput" type="text" name="Input" id="Input" placeholder="INPUT">
 ```
 ##### Hoverable
 ```html
-<input class="textinput hoverable showcase" type="text" name="Input" id="Input" placeholder="HOVERABLE INPUT">
+<input class="textinput hoverable" type="text" name="Input" id="Input" placeholder="HOVERABLE INPUT">
 ```
 ### Popup
 ```html
