@@ -1,4 +1,6 @@
 # ECAM.css
+[![Repo Size](https://img.shields.io/github/repo-size/baranonen/ECAM.css?style=plastic "Repo Size")](https://img.shields.io/github/repo-size/baranonen/ECAM.css?style=plastic "Repo Size") [![License](https://img.shields.io/github/license/baranonen/ECAM.css?style=plastic "License")](https://img.shields.io/github/license/baranonen/ECAM.css?style=plastic "License") [![Version](https://img.shields.io/npm/v/ecam.css?style=plastic "Version")](https://img.shields.io/npm/v/ecam.css?style=plastic "Version")
+</br>
 Airbus ECAM Style CSS Framework
 
 ### Installing
